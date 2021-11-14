@@ -1,9 +1,10 @@
+import Link from 'next/link'
 export default function Inicio() {
   return (
     <div>
-
-      <h1>Fundamentos de Next.js & React</h1>
-      <h2>Aprimorando</h2>
+      <Link href = "/Estiloso"> 
+        Estiloso
+      </Link>
     </div>
   )
 }
